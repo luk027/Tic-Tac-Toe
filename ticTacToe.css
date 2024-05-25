@@ -6,6 +6,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 392px) {
+    main{
+        display: ruby;  
+    }
+}
+
 
 h1{
     font-family: 'Courier New', Courier, monospace; 
@@ -14,10 +20,6 @@ h1{
 .container{
     height: 70vmin;
     width: 70vmin;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .game{
@@ -65,9 +67,9 @@ h1{
     border-color: #ebebd3;
 }
 .newgame-btn{
-    padding: 8px 16px 8px 16px;
+    padding: 6px 12px 6px 12px;
     font-size:x-large;
-    border-radius: 1rem;
+    border-radius: 10px;
     border-color:#F4D35E;
     color:#F4D35E;
     background-color:#083d77;
@@ -88,6 +90,8 @@ h1{
     align-items: center;
     gap: 1rem;
     background-color: #062f5b;
+    border-radius: 10px;
+    padding: 0px 4px 0px 4px;
 }
 .hide{
     display: none;
